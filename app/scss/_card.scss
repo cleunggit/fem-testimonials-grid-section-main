@@ -74,5 +74,31 @@
     color: $veryDarkGrayishBlue;
     opacity: 0.7;
   }
+  
+  @media (min-width:992px) {
+    margin-bottom: 0;
+    padding: 1.5rem;
+  
+    &:first-child {
+      background-position: top right 4.2rem;
+    }  
+
+    &:first-child {
+      grid-area: a;
+    }
+    &:nth-child(2) {
+      grid-area: b;
+    }
+    &:nth-child(3) {
+      grid-area: c;
+    }
+    &:nth-child(4) {
+      grid-area: d;
+    }
+    &:last-child {
+      grid-area: e;
+    }
+  }
 
 }
+
